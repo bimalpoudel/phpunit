@@ -1,0 +1,10 @@
+<phpunit bootstrap="autoload.php">
+    <testsuites>
+        <testsuite name="cases">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="testdox-text" target="logs/tests.log"/>
+    </logging>
+</phpunit>
