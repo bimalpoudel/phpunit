@@ -1,10 +1,13 @@
-<phpunit bootstrap="autoload.php">
+<phpunit bootstrap="autoload.php" colors="true">
     <testsuites>
         <testsuite name="cases">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
     <logging>
-        <log type="testdox-text" target="logs/tests.log"/>
+        <log type="testdox-text" target="logs/tests.log" />
     </logging>
+	<php>
+		<env name="APP_ENV" value="testing" />
+	</php>
 </phpunit>
