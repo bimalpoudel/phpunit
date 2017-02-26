@@ -1,1 +1,1 @@
-@php "%~dp0phpunit.phar" %* 
+@php "D:\htdocs\angular\phpunit\phpunit.phar"  

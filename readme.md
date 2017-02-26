@@ -1,10 +1,11 @@
 # phpunit
 
   - PHPUnit Boiler Template
-  - Startup a project with these files.
+  - Single click installation of PHPUnit framework
 
 
 ## Installation
 
+  - git clone
   - run install.bat
   - [configure phpunit.xml](https://phpunit.de/manual/current/en/organizing-tests.html)
