@@ -1,13 +1,15 @@
-<phpunit bootstrap="autoload.php" colors="true">
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit bootstrap="bootstrap.php" backupGlobals="false" colors="true">
     <testsuites>
         <testsuite name="cases">
-            <directory>tests</directory>
+            <directory suffix="Test.php">tests</directory>
         </testsuite>
     </testsuites>
     <logging>
-        <log type="testdox-text" target="logs/tests.log" />
+		<log type="testdox-text" target="logs/testdox.txt" logIncompleteSkipped="true"/>
     </logging>
 	<php>
-		<env name="APP_ENV" value="testing" />
+		<env name="APP_ENV" value="dev" />
+		<const name="VERSION" value="1.0.0"/>
 	</php>
 </phpunit>
