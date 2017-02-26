@@ -1,6 +1,9 @@
 # phpunit
 
-PHPUnit Boiler Template
+  - PHPUnit Boiler Template
+  - Startup a project with these files.
 
-Startup a project with these files.
 
+## Installation
+
+  - run install.bat
